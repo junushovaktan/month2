@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 325px;
+}
+h1 {
+    font-family: "Comic Sans MS";
+    font-size: 60px;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+    background: linear-gradient(0deg, #0B2349 33%, #6F99D0 66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: auto;
+}
+.ccc {
+    margin: 0;
+}
+#noll {
+    font-size: 50px;
+    font-family: Impact;
+    padding-top: 18px;
+
+}
+.count {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid blueviolet;
+    width: 700px;
+    height: 130px;
+}
+#minus {
+    background: linear-gradient(34deg, #F84B97, #6385EE, #fec6eb);
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+.nol {
+    text-align: center;
+    border-radius: 50%;
+    background: linear-gradient(350deg, #6F4DE1, #88D3CE);
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+#plus {
+    background: linear-gradient(120deg, #F84B97, #6385EE, #FEC6EB);
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+.p2 {
+    font-size: 80px;
+}
+.p21 {
+    font-size: 80px;
+}
+button {
+    border: none;
+}
+.foot {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin-top: 5px;
+}
+a {
+    text-decoration-style: inherit;
+    color: #725CDE;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+}
+.p3 {
+    color: #725CDE;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+}
