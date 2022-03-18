@@ -51,6 +51,7 @@ h1 {
     width: 100px;
     height: 100px;
     margin-top: 10px;
+    color: white;
 }
 #plus {
     background: linear-gradient(120deg, #F84B97, #6385EE, #FEC6EB);
@@ -60,9 +61,14 @@ h1 {
 }
 .p2 {
     font-size: 80px;
+    color: white;
 }
 .p21 {
-    font-size: 80px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Comic Sans MS";
+    color: white;
+    font-weight: 700;
 }
 button {
     border: none;
@@ -84,4 +90,9 @@ a {
     color: #725CDE;
     font-size: 20px;
     font-family: "Comic Sans MS";
+}
+.reset {
+    background: linear-gradient(120deg, #F84B97, #6385EE, #FEC6EB);
+    width: 100px;
+    height: 30px;
 }
