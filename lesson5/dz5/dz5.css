@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.svet {
+      background: linear-gradient(to top right, #333, grey);
+      width: 150px;
+      height: 440px;
+      border-radius: 10px;
+      padding: 10px 0;
+
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+}
+.red {
+      background: #666;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+}
+
+.yellow {
+      background: #666;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+}
+
+.green {
+      background: #666;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+}
