@@ -22,19 +22,6 @@ const obj2 = {
 }
 console.log(obj2);
 
-
-// const button = document.getElementsByClassName('btn');
-// const input = document.getElementsByClassName('inp')
-//
-// function render() {
-//       const Mdiv = document.createElement('div');
-//       Mdiv.setAttribute('class', 'dv3');
-//       for (i = 0; i < dv3.length; i++) {
-//         const div = document.createElement('div');
-//         div.setAttribute('class', '')
-//       }
-// }
-
 btn.onclick = function () {
      let v = document.getElementById('inp').value;
      document.getElementById('al').innerHTML = 'Салам Попалам  '+ v + ' :))';
